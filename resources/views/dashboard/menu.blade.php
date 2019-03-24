@@ -15,9 +15,9 @@
         <!-- small box -->
         <div class="small-box bg-aqua">
           <div class="inner">
-            <h3>150</h3>
+            <h2>Rp.{{$getdashboard['totalprice']}}</h2>
 
-            <p>New Orders</p>
+            <p>Total Sales</p>
           </div>
           <div class="icon">
             <i class="ion ion-bag"></i>
@@ -30,9 +30,10 @@
         <!-- small box -->
         <div class="small-box bg-green">
           <div class="inner">
-            <h3>53<sup style="font-size: 20px">%</sup></h3>
+            <!-- <h3>53<sup style="font-size: 20px">%</sup></h3> -->
+            <h3>{{$getdashboard['menuterjual']}}</h3>
 
-            <p>Bounce Rate</p>
+            <p>Menu Terjual</p>
           </div>
           <div class="icon">
             <i class="ion ion-stats-bars"></i>
@@ -45,9 +46,9 @@
         <!-- small box -->
         <div class="small-box bg-yellow">
           <div class="inner">
-            <h3>44</h3>
+            <h3>{{$getdashboard['cucounter']}}</h3>
 
-            <p>User Registrations</p>
+            <p>Customers</p>
           </div>
           <div class="icon">
             <i class="ion ion-person-add"></i>
@@ -60,9 +61,9 @@
         <!-- small box -->
         <div class="small-box bg-red">
           <div class="inner">
-            <h3>65</h3>
+            <h3>{{$getdashboard['servdurcount']}}</h3>
 
-            <p>Unique Visitors</p>
+            <p>Service Duration > 15 min</p>
           </div>
           <div class="icon">
             <i class="ion ion-pie-graph"></i>

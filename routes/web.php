@@ -15,4 +15,4 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'AdminController@dashboard');
+Route::get('/', 'AdminController@getDashboard');
